@@ -38,5 +38,34 @@ See: `sources/rfi_list.md`
 > Note: I do not redistribute scraped article text. I publish a citation trail + summaries.
 
 ---
+## Repository Structure
+project_alpha_venezuela_risk/
+docs/
+project_alpha_report.pdf
+figures/
+notebooks/
+01_build_figures.ipynb
+sources/
+sources.md
+rfi_list.md
+requirements.txt
+README.md
 
+---
+
+## Methods (High Level)
+- **Distressed credit → control heuristic:** scenario “control multiplier” approach with sensitivity bands.
+- **Regime risk:** non-stationarity framing (breakpoint logic; avoid point-estimate overconfidence).
+- **Kinetic latency:** distance ÷ velocity scenario bands (Mach 5–10) + decision thresholds (15m/30m).
+- **Falsifiability:** each claim has an explicit **invalidation trigger** (Appendix A in the report).
+
+---
+
+## Assumptions & Limitations
+- All monetary figures are **open-source estimates** and vary by scope and methodology.
+- Kinetic model is a **scenario band**, not attribution, intent, targeting, or operational forecasting.
+- “Control” claims are framed as **mechanisms consistent with incentives** unless supported by primary documents.
+- Outputs are for **analysis/education** and are not investment advice.
+
+---
 
